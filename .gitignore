@@ -1,3 +1,4 @@
+# --- Build & dependency artifacts (tools.deps / Leiningen) ---
 pom.xml
 pom.xml.asc
 *.jar
@@ -6,9 +7,57 @@ pom.xml.asc
 /classes/
 /target/
 /checkouts/
+.cpcache/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
 .lein-failures
+
+# --- REPL & tooling state ---
 .nrepl-port
-.cpcache/
+.nrepl-history
+.rebel_readline_history
+.socket-repl-port
+.portal/
+.calva/output-window/
+.calva/repl.calva-repl
+
+# --- clj-kondo / clojure-lsp caches (keep .clj-kondo/config.edn committed) ---
+.clj-kondo/.cache/
+.lsp/.cache/
+.lsp/sqlite*.db
+
+# --- Rendered output (uncomment if these are regenerated, not curated) ---
+# /out/
+# *.html
+# *.png
+# *.svg
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+Icon?
+
+# --- Editors ---
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+\#*\#
+.#*
+
+# --- Local environment ---
+.env
+.env.*
+!.env.example
