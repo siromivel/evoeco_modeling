@@ -1,7 +1,7 @@
-(ns ricker-viz
-  (:require [ricker-config :as config]
-            [ricker-helpers :as helpers]
-            [ricker-model :as ricker]
+(ns ricker.ricker-viz
+  (:require [ricker.ricker-config :as config]
+            [ricker.ricker-helpers :as helpers]
+            [ricker.ricker-model :as ricker]
             [scicloj.clay.v2.api :as clay]
             [scicloj.kindly.v4.kind :as kind]))
 

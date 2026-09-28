@@ -1,6 +1,6 @@
-(ns ricker-model
-    (:require [ricker-config :as config])
-    (:require [ricker-helpers :as helpers]))
+(ns ricker.ricker-model
+    (:require [ricker.ricker-config :as config])
+    (:require [ricker.ricker-helpers :as helpers]))
 
 ;; Basic Ricker model
 ;; where n = initial population size

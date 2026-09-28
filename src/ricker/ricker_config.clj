@@ -1,4 +1,4 @@
-(ns ricker-config)
+(ns ricker.ricker-config)
 
 (def max-steps 150)
 (def history-length 32)

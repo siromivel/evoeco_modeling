@@ -1,5 +1,5 @@
-(ns ricker-helpers
-    (:require [ricker-config :as config]))
+(ns ricker.ricker-helpers
+    (:require [ricker.ricker-config :as config]))
 
 ;; custom iterator for inclusive take-while behavior
 (defn take-through
